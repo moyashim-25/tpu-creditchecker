@@ -102,7 +102,7 @@ function seisin() {
 // 総合科目のチェッカー
 function checker() {
     if (CCid('overseas') == 0) {
-        resultDsp('Sorry, this checker is not available for overseas students now.');
+        resultDsp('Sorry, this checker is currently not available for overseas students.');
     }
     var sougouSum = ningen() + shakai() + gengo() + seisin();
     if (sougouSum < 15) {
@@ -115,7 +115,7 @@ function checker() {
 
 function scl() {
     var elbox = document.getElementById('res_box');
-    elbox.scrollIntoView({behavior: "smooth", block: "end"});
+    elbox.scrollIntoView({behavior: "smooth", block: "start"});
 }
 
 // 同意の確認
