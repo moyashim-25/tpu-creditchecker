@@ -3,11 +3,17 @@
     font-weight: 400;
 }
 
+h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
 td,
 th,
 table {
     border: 1px black solid;
     text-align: center;
+    border-collapse: collapse;
 }
 
 tbody tr:nth-child(even) {
