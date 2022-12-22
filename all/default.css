@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* 全体のスタイル */
+body {
+    font-family: 'Noto Sans', 'Noto Sans JP', '游ゴシック', sans-serif;
+    font-weight: 400;
+    margin: 1.5em;
+    line-height: 1.75em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: underline dotted;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+h2 {
+    padding-left: 1em;
+    margin: 0.5em 0;
+    font-weight: 400;
+}
+
+/* 表のスタイル */
+td,
+th,
+table {
+    border: 1px black solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 0 0.5em;
+}
+
+th {
+    font-weight: 500;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+
+.inp_num {
+    width: 3em;
+}
+
+/* 結果のスタイル */
+button {
+    font-family: 'Noto Sans', 'Noto Sans JP', '游ゴシック', sans-serif;
+    padding: 0.5em 1em;
+}
+div#res_box>h2 {
+    color: black;
+    border: none;
+    padding: 0;
+}
+
+div#res_box {
+    border: 3px double black;
+    padding: 1em;
+}
+
+div#res_box ul li {
+    border-bottom: 1px solid #DD667A;
+    margin: 0.5em 1em;
+}
+
+/* フッタのスタイル */
+footer {
+    text-align: center;
+}
+
+small {
+    width: 100%;
+    font-size: 0.8em;
+    border-top: solid 1px black;
+}
+
+small>p {
+    display: inline-block;
+    padding: 0em 1em;
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* 目次のスタイル */
+nav {
+    display: inline-block;
+    border: 1px black solid;
+    padding-right: 2em;
+    margin: 1em 0em;
+}
+
+nav a {
+    color: black;
+}
+
+/* 記事のスタイル */
+article>h2, div>h2 {
+    border-left: 0.5em solid #0068B6;
+    border-bottom: 1px solid #0068B6;
+}
+
+section {
+    margin: 1em;
+}
+
+h3 {
+    color: #0068B6;
+    margin: 0.5em 0;
+    font-weight: 500;
+    border-bottom: 2px dashed #0068B6;
+}
+
+ol {
+    padding-left: 2em;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dt,dd {
+    line-height: 1.5em;
+}
