@@ -3,3 +3,6 @@
 
 This is the checker of credit of TPU for TPU students who enter 2022.
 "TPU" stands for Toyama Prefectural University.
+
+## URL
+https://moyashim-25.github.io/tpu-creditchecker/
